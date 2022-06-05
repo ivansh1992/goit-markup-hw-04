@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Zadanie domowe</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -22,16 +22,30 @@
           ><h3><span class="higlight">Web</span>Studio</h3></a
         >
         <nav>
-          <ul class="list">
-            <li><a href="#">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#K">Kontakt</a></li>
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="#">Agencja</a></li>
+            <li class="nav-list-item">
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-list-item"><a href="#K">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="contact">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+        <ul class="contact-list">
+          <li class="contact-list-item">
+            <a href="mailto:info@devstudio.com">
+              <svg class="contact-list-item-icon-envelope">
+                <use href="./image/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <a href="tel:+48111111111">
+              <svg class="contact-list-item-icon-smartphone">
+                <use href="./image/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111
+            </a>
           </li>
         </ul>
       </div>
@@ -62,162 +76,215 @@
         <div class="container">
           <ul class="portfolio-list">
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/technocrack.jpg"
-                  alt="laptop"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">Technocrack</h3>
-                  <p class="portfolio-indention-text">Strona internetowa</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/technocrack.jpg"
+                    alt="laptop"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">Technocrack</h3>
+                    <p class="portfolio-indention-text">Strona internetowa</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/basketball.jpg"
-                  alt="basketball"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">
-                    Grafika New Orlean vs Golden Star
-                  </h3>
-                  <p class="portfolio-indention-text">Dizajn</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/basketball.jpg"
+                    alt="basketball"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">
+                      Grafika New Orlean vs Golden Star
+                    </h3>
+                    <p class="portfolio-indention-text">Dizajn</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/seafood_restaurant.jpg"
-                  alt="restaurant logo"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">Restauracja Seafood</h3>
-                  <p class="portfolio-indention-text">Aplikacja</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/seafood_restaurant.jpg"
+                    alt="restaurant logo"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">Restauracja Seafood</h3>
+                    <p class="portfolio-indention-text">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/project_prime.jpg"
-                  alt="headphones"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">Aplikacja</h3>
-                  <p class="portfolio-indention-text">Marketing</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/project_prime.jpg"
+                    alt="headphones"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">Aplikacja</h3>
+                    <p class="portfolio-indention-text">Marketing</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/project_boxes.jpg"
-                  alt="boxes"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">Projekt Boxes</h3>
-                  <p class="portfolio-indention-text">Aplikacja</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/project_boxes.jpg"
+                    alt="boxes"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">Projekt Boxes</h3>
+                    <p class="portfolio-indention-text">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/inspirations.jpg"
-                  alt="screen"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">
-                    Inspiration has no Borders
-                  </h3>
-                  <p class="portfolio-indention-text">Strona internetowa</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/inspirations.jpg"
+                    alt="screen"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">
+                      Inspiration has no Borders
+                    </h3>
+                    <p class="portfolio-indention-text">Strona internetowa</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/magazine.jpg"
-                  alt="magazine"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">Strona internetowa</h3>
-                  <p class="portfolio-indention-text">Dizajn</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/magazine.jpg"
+                    alt="magazine"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">Strona internetowa</h3>
+                    <p class="portfolio-indention-text">Dizajn</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/project_lab.jpg"
-                  alt="label"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">Projekt LAB</h3>
-                  <p class="portfolio-indention-text">Marketing</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/project_lab.jpg"
+                    alt="label"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">Projekt LAB</h3>
+                    <p class="portfolio-indention-text">Marketing</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
             <li class="portfolio-image">
-              <figure>
-                <img
-                  src="image/growing_business.jpg"
-                  alt="growing business"
-                  width="370"
-                  height="294"
-                />
-                <figcaption>
-                  <h3 class="portfolio-indention">Growing Business</h3>
-                  <p class="portfolio-indention-text">Aplikacja</p>
-                </figcaption>
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    src="image/growing_business.jpg"
+                    alt="growing business"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <h3 class="portfolio-indention">Growing Business</h3>
+                    <p class="portfolio-indention-text">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="bottom">
-      <div class="container">
-        <ul class="bottom-list">
-          <li>
-            <a class="logo" href="/index.html"
-              ><h3>
-                <span class="higlight">Web</span
-                ><span class="studio">Studio</span>
-              </h3>
-            </a>
-          </li>
-          <li><address>m. Warszawa, Aleje Jerozolimskie 21</address></li>
-          <li>
-            <a class="bottom-contact" href="mailto:info@example.com"
-              >info@example.com
-            </a>
-          </li>
-          <li>
-            <a class="bottom-contact" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
+    <footer class="footer">
+      <div class="container flexible">
+        <div class="footer-address">
+          <a class="footer-logo" href="/index.html">
+            <span class="higlight">Web</span>
+            Studio
+          </a>
+          <address>
+            <ul class="address-list">
+              <li class="address-list-item">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </li>
+              <li class="address-list-item">
+                <a class="address-list-link" href="mailto:info@example.com"
+                  >info@example.com
+                </a>
+              </li>
+              <li class="address-list-item">
+                <a class="address-list-link" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-join-us">
+          <h3 class="join-us-headeer">Dołącz do nas</h3>
+          <ul class="join-us-list">
+            <li class="join-us-list-item">
+              <a class="join-us-list-link" href="#">
+                <svg class="join-us-list-icon">
+                  <use href="./image/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-us-list-item">
+              <a class="join-us-list-link" href="#">
+                <svg class="join-us-list-icon">
+                  <use href="./image/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-us-list-item">
+              <a class="join-us-list-link" href="#">
+                <svg class="join-us-list-icon">
+                  <use href="./image/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-us-list-item">
+              <a class="join-us-list-link" href="#">
+                <svg class="join-us-list-icon">
+                  <use href="./image/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
