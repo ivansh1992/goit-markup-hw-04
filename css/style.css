@@ -117,11 +117,11 @@ ul {
   margin-right: 10px;
 }
 .slogan {
-  height: 600px;
-  background: var(--color-background);
-  display: flex;
-  justify-content: center;
-  padding-top: 200px;
+  text-align: center;
+}
+.slogan-image {
+  max-width: 1600px;
+  padding: 200px 0;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -129,6 +129,8 @@ ul {
     url(../image/img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 }
 .slogan-text {
   font-family: "Roboto";
@@ -315,7 +317,6 @@ figure {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: var(--color-fill-social-link);
-
   margin-bottom: 94px;
 }
 .customers-caption-list-item-link:hover,
@@ -388,6 +389,7 @@ figure {
 .address-list-link:active {
   color: var(--color-variable);
 }
+
 .join-us-headeer {
   font-style: normal;
   font-weight: 700;
@@ -396,12 +398,14 @@ figure {
   line-height: 1.14em;
   letter-spacing: 0.03em;
   color: var(--color-slogan);
+  text-align: left;
 }
 .join-us-list {
   list-style: none;
   display: flex;
   align-items: center;
   list-style-type: none;
+  margin-right: -10px;
 }
 .join-us-list-link {
   display: flex;
@@ -409,10 +413,12 @@ figure {
   align-items: center;
   width: 44px;
   height: 44px;
-  margin-left: 10px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--color-slogan);
+}
+.join-us-list-link:nth-child(-n + 2) {
+  margin-right: 10px;
 }
 .join-us-list-link:hover,
 .join-us-list-link:active {
